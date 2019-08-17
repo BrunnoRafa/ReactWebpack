@@ -1,0 +1,38 @@
+{
+  "name": "reactwebpack",
+  "version": "1.0.0",
+  "description": "Configuracao de projeto React utilizando o Webapack",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunnoRafa/ReactWebpack.git"
+  },
+  "author": "Bruno Filgueira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrunnoRafa/ReactWebpack/issues"
+  },
+  "homepage": "https://github.com/BrunnoRafa/ReactWebpack#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "html-loader": "^0.5.5",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.13"
+  }
+}
